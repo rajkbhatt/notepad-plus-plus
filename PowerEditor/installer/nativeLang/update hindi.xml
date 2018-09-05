@@ -12,14 +12,14 @@
       <Main>
         <!-- Main Menu Entries -->
         <Entries>
-          <Item menuId="file" name="&amp;फाईल"/>
-          <Item menuId="edit" name="&amp;एडिट"/>
-          <Item menuId="search" name="&amp;सर्च"/>
-          <Item menuId="view" name="&amp;व्यू"/>
+          <Item menuId="file" name="&amp;फाइल"/>
+          <Item menuId="edit" name="&amp;संपादन"/>
+          <Item menuId="search" name="&amp;खोज"/>
+          <Item menuId="view" name="&amp;दृश्य"/>
           <Item menuId="encoding" name="&amp;एन्कोडिंग"/>
           <Item menuId="language" name="&amp;भाषा"/>
           <Item menuId="settings" name="&amp;सेटिंग"/>
-	  <Item menuId="tools" name="टूल्स"/>
+	  <Item menuId="tools" name="उपकरण"/>
           <Item menuId="macro" name="मेक्रो"/>
           <Item menuId="run" name="चलाये"/>
           <Item idName="Plugins" name="प्लगिन्स"/>
@@ -28,24 +28,24 @@
 
         <!-- Sub Menu Entries -->
         <SubEntries>
-          <Item subMenuId="file-openFolder" name="धारक फोल्डर खोलें"/>
-          <Item subMenuId="file-closeMore" name="और बंद करें"/>
-          <Item subMenuId="file-recentFiles" name="रीसेंट फाइल्स"/>
+          <Item subMenuId="file-openFolder" name="फोल्डर खोलें"/>
+          <Item subMenuId="file-closeMore" name="बंद करें"/>
+          <Item subMenuId="file-recentFiles" name="हाल के फाइल्स"/>
           <Item subMenuId="edit-copyToClipboard" name="क्लिपबोर्ड पर कॉपी करें"/>
           <Item subMenuId="edit-indent" name="इंडेन्ट"/>
-          <Item subMenuId="edit-convertCaseTo" name="कैस को एसे बदलें"/>
-          <Item subMenuId="edit-lineOperations" name="लाईन ऑपरेशन"/>
+          <Item subMenuId="edit-convertCaseTo" name="कैस को ऐसे बदलें"/>
+          <Item subMenuId="edit-lineOperations" name="लाइन ऑपरेशन"/>
           <Item subMenuId="edit-comment" name="टिप्पणी/टिप्पणी हटायें"/>
           <Item subMenuId="edit-autoCompletion" name="स्वतः पूर्ति"/>
           <Item subMenuId="edit-eolConversion" name="EOL रूपांतरण"/>
           <Item subMenuId="edit-blankOperations" name="रिक्त ऑपरेशन"/>
-          <Item subMenuId="edit-pasteSpecial" name="स्पेशल पेस्ट करें"/>
+          <Item subMenuId="edit-pasteSpecial" name="खास जोड़ें/>
           <Item subMenuId="edit-onSelection" name="चयन करने पर"/>
           <Item subMenuId="search-markAll" name="सभी चिन्हित करें"/>
           <Item subMenuId="search-unmarkAll" name="सभी अचिन्हित करें"/>
-          <Item subMenuId="search-jumpUp" name="ऊपर कूदें"/>
-          <Item subMenuId="search-jumpDown" name="नीचें कूदें"/>
-          <Item subMenuId="search-bookmark" name="बूकमार्क"/>
+          <Item subMenuId="search-jumpUp" name="ऊपर जाएं"/>
+          <Item subMenuId="search-jumpDown" name="नीचें जाएं"/>
+          <Item subMenuId="search-bookmark" name="बुकमार्क"/>
           <Item subMenuId="view-showSymbol" name="प्रतीक दिखायें"/>
           <Item subMenuId="view-zoom" name="बड़ा करें"/>
           <Item subMenuId="view-moveCloneDocument" name="वर्तमान दस्तावेज़ मूव/क्लोन करें"/>
@@ -85,8 +85,8 @@
           <Item id="41005" name="वर्तमान दस्तावेज़ के अलावा सभी बंद करें"/>
           <Item id="41009" name="बाएं और सभी बंद करें"/>
           <Item id="41018" name="दाएं और सभी बंद करें"/>
-          <Item id="41006" name="&amp;सेव करें"/>
-          <Item id="41007" name="&amp;सभी सेव करें"/>
+          <Item id="41006" name="&amp;सुरक्षित करें"/>
+          <Item id="41007" name="&amp;सभी सुरक्षित करें"/>
           <Item id="41008" name="&amp;की तरह सेव करें"/>
           <Item id="41010" name="प्रिंट करें..."/>
           <Item id="1001" name="अभी प्रिंट करें"/>
@@ -94,8 +94,8 @@
           <Item id="41012" name="सत्र लोड करें"/>
           <Item id="41013" name="सत्र सेव करें..."/>
           <Item id="41014" name="डिस्क से पुनः लोड करें"/>
-          <Item id="41015" name="कॉपी सेव करें..."/>
-          <Item id="41016" name="रीसायकल बिन में मूव करें"/>
+          <Item id="41015" name="कॉपी सुरक्षितक करें..."/>
+          <Item id="41016" name="रीसायकल बिन में डालें"/>
           <Item id="41017" name="पुनःनामांकन..."/>
           <Item id="41021" name="हाल ही में बंद फाइल को पुनः खोलें"/>
           <Item id="41022" name="फोल्डर वर्कस्पेस की तरह खोलें "/>
@@ -108,13 +108,13 @@
           <Item id="42006" name="&amp;मिटायें (Delete)"/>
           <Item id="42007" name="&amp;सभी चयनित करें (Select All)"/>
           <Item id="42020" name="शुरुआत/अंत चुनें"/>
-          <Item id="42008" name="लाईन इंडेंट बढ़ायें"/>
-          <Item id="42009" name="लाईन इंडेंट घटायें"/>
+          <Item id="42008" name="लाइन इंडेंट बढ़ायें"/>
+          <Item id="42009" name="लाइन इंडेंट घटायें"/>
           <Item id="42010" name="वर्तमान लाईन की कॉपी करें"/>
-          <Item id="42012" name="लाईन विभाजित करें"/>
-          <Item id="42013" name="लाईन जोड़ें"/>
-          <Item id="42014" name="वर्तमान लाईन को ऊपर सरकायें"/>
-          <Item id="42015" name="वर्तमान लाईन को नीचे सरकायें"/>
+          <Item id="42012" name="लाइन विभाजित करें"/>
+          <Item id="42013" name="लाइन जोड़ें"/>
+          <Item id="42014" name="वर्तमान लाइन को ऊपर सरकायें"/>
+          <Item id="42015" name="वर्तमान लाइन को नीचे सरकायें"/>
           <Item id="42059" name="लाइनों को लेक्सिकोग्राफिकल्ली आरोही क्रम में व्यवस्थित करें"/>
           <Item id="42060" name="लाइनों को लेक्सिकोग्राफिकल्ली अवरोही क्रम में व्यवस्थित करें"/>
           <Item id="42061" name="लाइनों को पूर्णांक आरोही क्रम में व्यवस्थित करें"/>
@@ -125,11 +125,11 @@
           <Item id="42066" name="लाइनों को दशमलव (Dot) अवरोही क्रम में व्यवस्थित करें"/>
           <Item id="42016" name="अपर केस"/>
           <Item id="42017" name="लोअर केस"/>
-          <Item id="42067" name="प्रॉपर  केस"/>
-          <Item id="42068" name="प्रॉपर  केस (blend)"/>
-          <Item id="42069" name="सेंटेंस  केस "/>
-          <Item id="42070" name="सेंटेंस  केस (blend)"/>
-          <Item id="42071" name="इन्वर्ट  केस(iNVERT cASE)"/>
+          <Item id="42067" name="प्रॉपर केस"/>
+          <Item id="42068" name="प्रॉपर केस (blend)"/>
+          <Item id="42069" name="सेंटेंस केस "/>
+          <Item id="42070" name="सेंटेंस केस (blend)"/>
+          <Item id="42071" name="इन्वर्ट केस(iNVERT cASE)"/>
           <Item id="42072" name="रैंडम केस(ranDOm CasE)"/>
           <Item id="42073" name="फाइल खोलें"/>
           <Item id="42074" name="धारक फोल्डर को एक्सप्लोरर में खोलें"/>
@@ -162,8 +162,8 @@
           <Item id="42026" name="अक्षर की दिशा  RTL"/>
           <Item id="42027" name="अक्षर की दिशा  LTR"/>
           <Item id="42028" name="Read-Only सेट करें"/>
-          <Item id="42029" name="वर्तमान फाईल का पाथ क्लिपबोर्ड पर लें"/>
-          <Item id="42030" name="वर्तमान फाईल का नाम क्लिपबोर्ड पर लें"/>
+          <Item id="42029" name="वर्तमान फाइल का पाथ क्लिपबोर्ड पर लें"/>
+          <Item id="42030" name="वर्तमान फाइल का नाम क्लिपबोर्ड पर लें"/>
           <Item id="42031" name="वर्तमान डायरेक्टरी पाथ क्लिपबोर्ड पर लें"/>
           <Item id="42032" name="मैक्रो को कई बार चलायें..."/>
           <Item id="42033" name="Read-Only फ्लेग को निकालें"/>
@@ -192,7 +192,7 @@
           <Item id="43009" name="मिलते ब्रेकेट पर जाओ"/>
           <Item id="43010" name="पिछला खोजें"/>
           <Item id="43011" name="&amp;इंक्रीमेंटल खोज"/>
-          <Item id="43013" name="फ़ाईलों मे खोजें"/>
+          <Item id="43013" name="फाइलों मे खोजें"/>
           <Item id="43014" name="अगला (Volatile) खोजें"/>
           <Item id="43015" name="पिछला (Volatile) खोजें"/>
           <Item id="43022" name="१ला स्टाईल ईस्तेमाल करके"/>
